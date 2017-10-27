@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flip Stitch Pillow</title>
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="css/pillow.css">
+  <!--google font-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+  <!--jquery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- javascript -->
+  <script src="pillows.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <!--navigation bar-->
+  <div id="navbar" class="navbar">
+    <a href="checkout.html" id="checkout">CHECKOUT</a>
+    <a href="contactus.html">CONTACT US</a>
+    <a href="customize.html">CUSTOMIZE</a>
+    <a class="active" href="catalog.html">PILLOWS</a>
+    <a href="index.html">HOME</a>
+    <a id="logo" href="index.html"><img src="images/logo_green.png" alt="Flip Stitch Pillow"/></a>
+  </div>
+  <br><br><br><br>
+  <div>
+    <!--product image-->
+    <div class="floating-box2">
+      <img Class ="center-image" id="cpl"; src= "images/square couch pillow large.jpg" alt="square couch pillow"/>
+    </div>
+    <!--product description-->
+    <div class="floating-box2 left-image">
+      <br><br><br><br><br>
+      <div>
+        <!--product name-->
+        <h3 id="name-scp">SQUARE COUCH PILLOW </h3>
+        <!--product price-->
+        <h3 id="price-scp">$15<br><br></h3>
+      </div>
+      <!--product qty-->
+      <div>
+        <h2>Quantity:&nbsp<input type="number" min="1" id="text-q-scp" size="3" placeholder="0">  </input>
+        </h2> <br>
+        <div>
+          <!--product size-->
+          <h2><label for="size-scp">Size:</label>
+            <select id="size-scp" required>
+              <option value="L">Large (12in x 12in)</option>
+              <option value="M">Medium  (8in x 8in)</option>
+              <option value="S">Small (6in x 6in)</option>
+            </select>
+            &nbsp &nbsp &nbsp
+            <!--poduct color-->
+            <label for="color-scp">Color:</label>
+            <select id="color-scp">
+              <option id="beige">Beige</option>
+              <option id="black">Black</option>
+            </select>
+          </h2>
+        </div>
+      </div>
+      <br>
+      <!--description of product-->
+      <div>
+        <h2 id="description-scp">DETAILS: Textured decorative throw cushion for your couch<br> designed and handpainted by a local artisan. <br><br> Material: Cotton polifill covered by hemp cloth.</h2>
+        <h6 id="percentage-bought">70% of our buyers buy this size, it's just perfect!</h6>
+        <!--customization request box-->
+        <textarea rows="6" cols="50"> Type your customization request here. </textarea><br><br>
+        <button id="cart"> Add to Cart </button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
